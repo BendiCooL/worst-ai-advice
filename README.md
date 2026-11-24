@@ -13,3 +13,5 @@ One line of the worst AI advice for the [Worst AI Advice: The 48-Hour Tight Line
 ## How it works
 
 `main.ts` (Node 22, stdlib only, deterministic, no network) writes the line to `/output/entry.txt`.
+The program self-checks the gate before writing: 1–140 Unicode code points, a single line,
+no trailing newline.
